@@ -150,8 +150,8 @@ IndexNow submits: **HTTP 202** (synergix) and **HTTP 200** (arenia) — 14 URLs 
 - Lighthouse reports (7 JSON+HTML pairs): pre-fix, post-fix desktop, post-fix mobile, post-restore, IndexNow submissions.
 - Synergix main: commit `5b6cec4` (a11y fixes + IndexNow key).
 - Arenia main: commit `c8e20f6` (a11y fixes + video reconcile).
-- Python script: [`scripts/a11y-fixes.py`](https://github.com/micpet7514088/www.arenia.it/blob/main/scripts/a11y-fixes.py) — reusable on any Tailwind-based flat HTML site with the same footer pattern.
-- Build extension: [`scripts/build.js`](https://github.com/micpet7514088/www.synergix.it/blob/main/scripts/build.js) — auto-injects `<main>` between partials.
+- Python script `scripts/a11y-fixes.py` in the arenia site repo — reusable on any Tailwind-based flat HTML site with the same footer pattern. *(Site repo currently private; script available on request.)*
+- Build extension `scripts/build.js` in the synergix site repo — auto-injects `<main>` between partials. *(Same privacy note.)*
 
 ## What `autogap` did well
 
