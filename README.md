@@ -123,8 +123,10 @@ Real diagnoses on real projects. Some are anonymized; one is a fully public post
 
 - **[Accessibility audit on two production sites — 88/95 → 100/100 in one day](./docs/case-studies/03-a11y-two-sites.md)**
   Diagnosis, fix, deploy, certification. Includes a real drift incident + recovery. Fully public, real commit SHAs.
-- **[AI Act readiness — European insurtech mid-cap](./docs/case-studies/01-synergix-ai-governance.md)** — anonymized, draft
-- **[L&D program ROI — B2B training provider](./docs/case-studies/02-arenia-ld-program.md)** — anonymized, draft
+- **[NIS2 incident response audit on a European insurer](./docs/case-studies/01-synergix-nis2-audit.md)**
+  Independent audit, 3 parallel workstreams, DR failover error caught in tabletop. Anonymized.
+- **[AI Coach fine-tuning for a healthcare vertical — retention +17%](./docs/case-studies/02-arenia-ai-coach-finetuning.md)**
+  Response-variance + semantic fix + within-session latency bug. Anonymized.
 
 See [`docs/case-studies/`](./docs/case-studies/) for the full set.
 

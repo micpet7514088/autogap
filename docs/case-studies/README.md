@@ -4,9 +4,9 @@ Real diagnoses run with `autogap` on real projects. Each case covers a different
 
 | # | Title | Project type | Status |
 |---|---|---|---|
-| 03 | [Accessibility audit on two production sites](./03-a11y-two-sites.md) | hybrid / web / ops | **Public, verified live.** Real commits, real Lighthouse reports. |
-| 01 | [AI Act readiness — European insurtech](./01-synergix-ai-governance.md) | strategy / compliance | Draft, anonymized; metrics pending verification. |
-| 02 | [L&D program ROI — B2B training provider](./02-arenia-ld-program.md) | strategy / learning ops | Draft, anonymized; metrics pending verification. |
+| 03 | [Accessibility audit on two production sites](./03-a11y-two-sites.md) | hybrid / web / ops | **Public**, verified live. Real commits, real Lighthouse reports. |
+| 01 | [NIS2 incident response audit on a European insurer](./01-synergix-nis2-audit.md) | strategy / compliance / ops | **Real anonymized** Synergix engagement. Client identity redacted; team + gaps + outcomes preserved. |
+| 02 | [AI Coach fine-tuning for a healthcare vertical](./02-arenia-ai-coach-finetuning.md) | AI product tuning / measurable user-impact | **Real anonymized** Arenia engagement. Retention +17% verified. |
 
 ## What a good case study looks like
 
