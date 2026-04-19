@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Node / Python (for any demo tooling)
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.local
+
+# Build / tmp
+dist/
+build/
+*.log
+*.tmp
+.cache/
+
+# asciinema raw output kept; GIFs checked in, but scratch renders ignored
+assets/demos/*.scratch.*
+assets/demos/tmp/
+
+# Secrets — never
+*.pem
+*.key
+*secret*
+*credentials*
