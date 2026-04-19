@@ -1,0 +1,10 @@
+[project]
+name = "expensetrack"
+version = "0.1.0"
+description = "TODO"
+requires-python = ">=3.10"
+# TODO: authors, license, classifiers, urls
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

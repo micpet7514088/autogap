@@ -107,6 +107,16 @@ Copy [`skills/autogap/SKILL.md`](./skills/autogap/SKILL.md) into any dir Claude 
 
 ---
 
+## Examples you can run
+
+Three demo projects, one per major project type. Each one has an expected-output file so you can compare what `autogap` produces against what it should produce.
+
+- [`examples/demo-01-code/`](./examples/demo-01-code/) — Python CLI blocked on PyPI release → [expected output](./examples/demo-01-code/autogap-run.md)
+- [`examples/demo-02-docs/`](./examples/demo-02-docs/) — CIKM 2026 paper, 50 days to deadline → [expected output](./examples/demo-02-docs/autogap-run.md)
+- [`examples/demo-03-strategy/`](./examples/demo-03-strategy/) — Q3 product launch with top-3 LOI contingency → [expected output](./examples/demo-03-strategy/autogap-run.md)
+
+See [`examples/`](./examples/) for the full set and the run instructions.
+
 ## Case studies
 
 Real diagnoses on real projects. Some are anonymized; one is a fully public post-mortem.
