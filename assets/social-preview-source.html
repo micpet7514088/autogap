@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>autogap</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 1280px;
+    height: 640px;
+    overflow: hidden;
+    background: #1e293b;
+    font-family: -apple-system, 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #fff;
+    antialiased: true;
+    -webkit-font-smoothing: antialiased;
+  }
+  .frame {
+    width: 1280px;
+    height: 640px;
+    padding: 80px 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:
+      radial-gradient(ellipse at 90% -10%, rgba(20, 184, 166, 0.22), transparent 55%),
+      radial-gradient(ellipse at -10% 120%, rgba(79, 70, 229, 0.20), transparent 55%),
+      #1e293b;
+  }
+  .eyebrow {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #14b8a6;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 152px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    margin-top: 12px;
+  }
+  .tagline {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.28;
+    color: #e2e8f0;
+    max-width: 1050px;
+    margin-top: 28px;
+  }
+  .tagline .accent {
+    color: #14b8a6;
+    font-weight: 700;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 22px;
+    color: #94a3b8;
+  }
+  footer .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: #64748b;
+  }
+  footer .github {
+    color: #cbd5e1;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div>
+      <div class="eyebrow">Claude Code skill</div>
+      <h1>autogap</h1>
+      <div class="tagline">
+        Diagnoses the top 3 gaps in <span class="accent">any project</span> &mdash;
+        code, docs, strategy, research, or ops. Not just software.
+      </div>
+    </div>
+    <footer>
+      <span class="github">github.com/micpet7514088/autogap</span>
+      <span class="dot"></span>
+      <span>Built by Synergix &amp; Arenia</span>
+    </footer>
+  </div>
+</body>
+</html>
