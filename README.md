@@ -83,17 +83,39 @@ Full thinking in [`docs/design-rationale.md`](./docs/design-rationale.md).
 
 ## Install
 
-**Method 1 — User-level skill (recommended):**
+**macOS / Linux:**
 
 ```bash
-git clone https://github.com/micpet7514088/autogap.git ~/autogap
-mkdir -p ~/.claude/skills/autogap
-ln -s ~/autogap/skills/autogap/SKILL.md ~/.claude/skills/autogap/SKILL.md
+curl -fsSL https://raw.githubusercontent.com/micpet7514088/autogap/main/install.sh | bash
+```
+
+**Windows (PowerShell 7+):**
+
+```powershell
+Invoke-RestMethod https://raw.githubusercontent.com/micpet7514088/autogap/main/install.ps1 | Invoke-Expression
 ```
 
 Restart Claude Code. From any project directory: `claude` → `/autogap`.
 
-**Method 2 — Project-level skill:**
+To update after a new release, clone the repo once and use the `--update` / `-Update` flag:
+
+```bash
+git clone https://github.com/micpet7514088/autogap.git ~/autogap
+bash ~/autogap/install.sh --update     # macOS / Linux
+# .\autogap\install.ps1 -Update        # Windows
+```
+
+<details>
+<summary>Manual install options</summary>
+
+**Clone + symlink (updates propagate automatically on pull):**
+
+```bash
+git clone https://github.com/micpet7514088/autogap.git ~/autogap
+bash ~/autogap/install.sh
+```
+
+**Project-level skill (per-project, no clone required):**
 
 ```bash
 mkdir -p .claude/skills/autogap
@@ -101,9 +123,9 @@ curl -sSL https://raw.githubusercontent.com/micpet7514088/autogap/main/skills/au
   -o .claude/skills/autogap/SKILL.md
 ```
 
-**Method 3 — Manual:**
+**File copy:** Copy [`skills/autogap/SKILL.md`](./skills/autogap/SKILL.md) into any directory Claude Code scans for skills.
 
-Copy [`skills/autogap/SKILL.md`](./skills/autogap/SKILL.md) into any dir Claude Code scans for skills.
+</details>
 
 ---
 

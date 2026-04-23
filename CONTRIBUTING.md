@@ -25,10 +25,8 @@ Thanks for considering a contribution. This project stays small and focused. We 
 ```bash
 git clone https://github.com/micpet7514088/autogap.git
 cd autogap
-
-# Install the skill into your Claude Code user skills dir:
-mkdir -p ~/.claude/skills/autogap
-ln -s "$(pwd)/skills/autogap/SKILL.md" ~/.claude/skills/autogap/SKILL.md
+bash install.sh          # macOS / Linux
+# .\install.ps1          # Windows PowerShell 7+
 
 # Restart Claude Code, cd into any real project, invoke /autogap.
 ```
